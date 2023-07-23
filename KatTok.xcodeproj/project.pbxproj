@@ -18,6 +18,7 @@
 		E91526CC2A6D0B9B00274430 /* KatTokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526CB2A6D0B9B00274430 /* KatTokTests.swift */; };
 		E91526D62A6D0B9B00274430 /* KatTokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526D52A6D0B9B00274430 /* KatTokUITests.swift */; };
 		E91526D82A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526D72A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift */; };
+		E91526E72A6D134300274430 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91526E62A6D134300274430 /* GoogleService-Info.plist */; };
 		F5F9F36D640CDA23CA971469 /* Pods_KatTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4EB6605EE841A2F8893B36 /* Pods_KatTok.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		E91526D12A6D0B9B00274430 /* KatTokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatTokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91526D52A6D0B9B00274430 /* KatTokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatTokUITests.swift; sourceTree = "<group>"; };
 		E91526D72A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatTokUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E91526E62A6D134300274430 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FCAC6E1B66DAE61C95D17413 /* Pods_KatTokTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatTokTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,7 +113,6 @@
 				4E8BAFF5584ED7567A98CBCE /* Pods-KatTokTests.debug.xcconfig */,
 				6E568DA57AC39AE977DA86D9 /* Pods-KatTokTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +146,7 @@
 				E91526B82A6D0B9900274430 /* ViewController.swift */,
 				E91526BA2A6D0B9900274430 /* Main.storyboard */,
 				E91526BD2A6D0B9B00274430 /* Assets.xcassets */,
+				E91526E62A6D134300274430 /* GoogleService-Info.plist */,
 				E91526BF2A6D0B9B00274430 /* LaunchScreen.storyboard */,
 				E91526C22A6D0B9B00274430 /* Info.plist */,
 			);
@@ -278,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91526C12A6D0B9B00274430 /* LaunchScreen.storyboard in Resources */,
+				E91526E72A6D134300274430 /* GoogleService-Info.plist in Resources */,
 				E91526BE2A6D0B9B00274430 /* Assets.xcassets in Resources */,
 				E91526BC2A6D0B9900274430 /* Main.storyboard in Resources */,
 			);
