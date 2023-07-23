@@ -1,0 +1,6 @@
+framework module Pods_KatTokTests {
+  umbrella header "Pods-KatTokTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

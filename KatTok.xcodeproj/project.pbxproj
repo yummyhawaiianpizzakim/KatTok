@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D81302CC04ECA08FC38DF46 /* Pods_KatTokTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAC6E1B66DAE61C95D17413 /* Pods_KatTokTests.framework */; };
+		2B89B9D22D1A24BEFF7A81B6 /* Pods_KatTok_KatTokUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAC4281278CBE52FDFAEB89 /* Pods_KatTok_KatTokUITests.framework */; };
+		E91526B52A6D0B9900274430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526B42A6D0B9900274430 /* AppDelegate.swift */; };
+		E91526B72A6D0B9900274430 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526B62A6D0B9900274430 /* SceneDelegate.swift */; };
+		E91526B92A6D0B9900274430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526B82A6D0B9900274430 /* ViewController.swift */; };
+		E91526BC2A6D0B9900274430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91526BA2A6D0B9900274430 /* Main.storyboard */; };
+		E91526BE2A6D0B9B00274430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91526BD2A6D0B9B00274430 /* Assets.xcassets */; };
+		E91526C12A6D0B9B00274430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91526BF2A6D0B9B00274430 /* LaunchScreen.storyboard */; };
+		E91526CC2A6D0B9B00274430 /* KatTokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526CB2A6D0B9B00274430 /* KatTokTests.swift */; };
+		E91526D62A6D0B9B00274430 /* KatTokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526D52A6D0B9B00274430 /* KatTokUITests.swift */; };
+		E91526D82A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526D72A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift */; };
+		F5F9F36D640CDA23CA971469 /* Pods_KatTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4EB6605EE841A2F8893B36 /* Pods_KatTok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E91526C82A6D0B9B00274430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91526A92A6D0B9900274430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91526B02A6D0B9900274430;
+			remoteInfo = KatTok;
+		};
+		E91526D22A6D0B9B00274430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91526A92A6D0B9900274430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91526B02A6D0B9900274430;
+			remoteInfo = KatTok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A4EB6605EE841A2F8893B36 /* Pods_KatTok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatTok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4647641FF8A41173576C2EE8 /* Pods-KatTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatTok.debug.xcconfig"; path = "Target Support Files/Pods-KatTok/Pods-KatTok.debug.xcconfig"; sourceTree = "<group>"; };
+		4E8BAFF5584ED7567A98CBCE /* Pods-KatTokTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatTokTests.debug.xcconfig"; path = "Target Support Files/Pods-KatTokTests/Pods-KatTokTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6452872E346877F8936183EE /* Pods-KatTok-KatTokUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatTok-KatTokUITests.debug.xcconfig"; path = "Target Support Files/Pods-KatTok-KatTokUITests/Pods-KatTok-KatTokUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E568DA57AC39AE977DA86D9 /* Pods-KatTokTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatTokTests.release.xcconfig"; path = "Target Support Files/Pods-KatTokTests/Pods-KatTokTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CA9FB09B2361F364B67322B /* Pods-KatTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatTok.release.xcconfig"; path = "Target Support Files/Pods-KatTok/Pods-KatTok.release.xcconfig"; sourceTree = "<group>"; };
+		BAAC4281278CBE52FDFAEB89 /* Pods_KatTok_KatTokUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatTok_KatTokUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81AF229E4AD4861B058DBF7 /* Pods-KatTok-KatTokUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatTok-KatTokUITests.release.xcconfig"; path = "Target Support Files/Pods-KatTok-KatTokUITests/Pods-KatTok-KatTokUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E91526B12A6D0B9900274430 /* KatTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91526B42A6D0B9900274430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E91526B62A6D0B9900274430 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E91526B82A6D0B9900274430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E91526BB2A6D0B9900274430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E91526BD2A6D0B9B00274430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91526C02A6D0B9B00274430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E91526C22A6D0B9B00274430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91526C72A6D0B9B00274430 /* KatTokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatTokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91526CB2A6D0B9B00274430 /* KatTokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatTokTests.swift; sourceTree = "<group>"; };
+		E91526D12A6D0B9B00274430 /* KatTokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatTokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91526D52A6D0B9B00274430 /* KatTokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatTokUITests.swift; sourceTree = "<group>"; };
+		E91526D72A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatTokUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCAC6E1B66DAE61C95D17413 /* Pods_KatTokTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatTokTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91526AE2A6D0B9900274430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F9F36D640CDA23CA971469 /* Pods_KatTok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91526C42A6D0B9B00274430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D81302CC04ECA08FC38DF46 /* Pods_KatTokTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91526CE2A6D0B9B00274430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B89B9D22D1A24BEFF7A81B6 /* Pods_KatTok_KatTokUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A255E9F5C3E976DF19649D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A4EB6605EE841A2F8893B36 /* Pods_KatTok.framework */,
+				BAAC4281278CBE52FDFAEB89 /* Pods_KatTok_KatTokUITests.framework */,
+				FCAC6E1B66DAE61C95D17413 /* Pods_KatTokTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE0330143D923F9F6903576 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4647641FF8A41173576C2EE8 /* Pods-KatTok.debug.xcconfig */,
+				7CA9FB09B2361F364B67322B /* Pods-KatTok.release.xcconfig */,
+				6452872E346877F8936183EE /* Pods-KatTok-KatTokUITests.debug.xcconfig */,
+				D81AF229E4AD4861B058DBF7 /* Pods-KatTok-KatTokUITests.release.xcconfig */,
+				4E8BAFF5584ED7567A98CBCE /* Pods-KatTokTests.debug.xcconfig */,
+				6E568DA57AC39AE977DA86D9 /* Pods-KatTokTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E91526A82A6D0B9900274430 = {
+			isa = PBXGroup;
+			children = (
+				E91526B32A6D0B9900274430 /* KatTok */,
+				E91526CA2A6D0B9B00274430 /* KatTokTests */,
+				E91526D42A6D0B9B00274430 /* KatTokUITests */,
+				E91526B22A6D0B9900274430 /* Products */,
+				DFE0330143D923F9F6903576 /* Pods */,
+				A1A255E9F5C3E976DF19649D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E91526B22A6D0B9900274430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91526B12A6D0B9900274430 /* KatTok.app */,
+				E91526C72A6D0B9B00274430 /* KatTokTests.xctest */,
+				E91526D12A6D0B9B00274430 /* KatTokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91526B32A6D0B9900274430 /* KatTok */ = {
+			isa = PBXGroup;
+			children = (
+				E91526B42A6D0B9900274430 /* AppDelegate.swift */,
+				E91526B62A6D0B9900274430 /* SceneDelegate.swift */,
+				E91526B82A6D0B9900274430 /* ViewController.swift */,
+				E91526BA2A6D0B9900274430 /* Main.storyboard */,
+				E91526BD2A6D0B9B00274430 /* Assets.xcassets */,
+				E91526BF2A6D0B9B00274430 /* LaunchScreen.storyboard */,
+				E91526C22A6D0B9B00274430 /* Info.plist */,
+			);
+			path = KatTok;
+			sourceTree = "<group>";
+		};
+		E91526CA2A6D0B9B00274430 /* KatTokTests */ = {
+			isa = PBXGroup;
+			children = (
+				E91526CB2A6D0B9B00274430 /* KatTokTests.swift */,
+			);
+			path = KatTokTests;
+			sourceTree = "<group>";
+		};
+		E91526D42A6D0B9B00274430 /* KatTokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E91526D52A6D0B9B00274430 /* KatTokUITests.swift */,
+				E91526D72A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift */,
+			);
+			path = KatTokUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E91526B02A6D0B9900274430 /* KatTok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91526DB2A6D0B9B00274430 /* Build configuration list for PBXNativeTarget "KatTok" */;
+			buildPhases = (
+				09486B03FE2617598F29C7D2 /* [CP] Check Pods Manifest.lock */,
+				E91526AD2A6D0B9900274430 /* Sources */,
+				E91526AE2A6D0B9900274430 /* Frameworks */,
+				E91526AF2A6D0B9900274430 /* Resources */,
+				EDF5CD9F371CD02421027FDC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KatTok;
+			productName = KatTok;
+			productReference = E91526B12A6D0B9900274430 /* KatTok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E91526C62A6D0B9B00274430 /* KatTokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91526DE2A6D0B9B00274430 /* Build configuration list for PBXNativeTarget "KatTokTests" */;
+			buildPhases = (
+				3F9AB88E9801DDD217625103 /* [CP] Check Pods Manifest.lock */,
+				E91526C32A6D0B9B00274430 /* Sources */,
+				E91526C42A6D0B9B00274430 /* Frameworks */,
+				E91526C52A6D0B9B00274430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91526C92A6D0B9B00274430 /* PBXTargetDependency */,
+			);
+			name = KatTokTests;
+			productName = KatTokTests;
+			productReference = E91526C72A6D0B9B00274430 /* KatTokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E91526D02A6D0B9B00274430 /* KatTokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91526E12A6D0B9B00274430 /* Build configuration list for PBXNativeTarget "KatTokUITests" */;
+			buildPhases = (
+				846CA8E5F16E4EF207160D07 /* [CP] Check Pods Manifest.lock */,
+				E91526CD2A6D0B9B00274430 /* Sources */,
+				E91526CE2A6D0B9B00274430 /* Frameworks */,
+				E91526CF2A6D0B9B00274430 /* Resources */,
+				E86FD0C42275A4A0270E3F3B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91526D32A6D0B9B00274430 /* PBXTargetDependency */,
+			);
+			name = KatTokUITests;
+			productName = KatTokUITests;
+			productReference = E91526D12A6D0B9B00274430 /* KatTokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91526A92A6D0B9900274430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E91526B02A6D0B9900274430 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E91526C62A6D0B9B00274430 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E91526B02A6D0B9900274430;
+					};
+					E91526D02A6D0B9B00274430 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E91526B02A6D0B9900274430;
+					};
+				};
+			};
+			buildConfigurationList = E91526AC2A6D0B9900274430 /* Build configuration list for PBXProject "KatTok" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91526A82A6D0B9900274430;
+			productRefGroup = E91526B22A6D0B9900274430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91526B02A6D0B9900274430 /* KatTok */,
+				E91526C62A6D0B9B00274430 /* KatTokTests */,
+				E91526D02A6D0B9B00274430 /* KatTokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91526AF2A6D0B9900274430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91526C12A6D0B9B00274430 /* LaunchScreen.storyboard in Resources */,
+				E91526BE2A6D0B9B00274430 /* Assets.xcassets in Resources */,
+				E91526BC2A6D0B9900274430 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91526C52A6D0B9B00274430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91526CF2A6D0B9B00274430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09486B03FE2617598F29C7D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KatTok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F9AB88E9801DDD217625103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KatTokTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		846CA8E5F16E4EF207160D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KatTok-KatTokUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86FD0C42275A4A0270E3F3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KatTok-KatTokUITests/Pods-KatTok-KatTokUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KatTok-KatTokUITests/Pods-KatTok-KatTokUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KatTok-KatTokUITests/Pods-KatTok-KatTokUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF5CD9F371CD02421027FDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KatTok/Pods-KatTok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KatTok/Pods-KatTok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KatTok/Pods-KatTok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91526AD2A6D0B9900274430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91526B92A6D0B9900274430 /* ViewController.swift in Sources */,
+				E91526B52A6D0B9900274430 /* AppDelegate.swift in Sources */,
+				E91526B72A6D0B9900274430 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91526C32A6D0B9B00274430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91526CC2A6D0B9B00274430 /* KatTokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91526CD2A6D0B9B00274430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91526D82A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift in Sources */,
+				E91526D62A6D0B9B00274430 /* KatTokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E91526C92A6D0B9B00274430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91526B02A6D0B9900274430 /* KatTok */;
+			targetProxy = E91526C82A6D0B9B00274430 /* PBXContainerItemProxy */;
+		};
+		E91526D32A6D0B9B00274430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91526B02A6D0B9900274430 /* KatTok */;
+			targetProxy = E91526D22A6D0B9B00274430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E91526BA2A6D0B9900274430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91526BB2A6D0B9900274430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E91526BF2A6D0B9B00274430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91526C02A6D0B9B00274430 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91526D92A6D0B9B00274430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E91526DA2A6D0B9B00274430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91526DC2A6D0B9B00274430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4647641FF8A41173576C2EE8 /* Pods-KatTok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KatTok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yummyHawaiianPizzaKim.KatTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E91526DD2A6D0B9B00274430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA9FB09B2361F364B67322B /* Pods-KatTok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KatTok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yummyHawaiianPizzaKim.KatTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E91526DF2A6D0B9B00274430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8BAFF5584ED7567A98CBCE /* Pods-KatTokTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yummyHawaiianPizzaKim.KatTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KatTok.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KatTok";
+			};
+			name = Debug;
+		};
+		E91526E02A6D0B9B00274430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E568DA57AC39AE977DA86D9 /* Pods-KatTokTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yummyHawaiianPizzaKim.KatTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KatTok.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KatTok";
+			};
+			name = Release;
+		};
+		E91526E22A6D0B9B00274430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6452872E346877F8936183EE /* Pods-KatTok-KatTokUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yummyHawaiianPizzaKim.KatTokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KatTok;
+			};
+			name = Debug;
+		};
+		E91526E32A6D0B9B00274430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81AF229E4AD4861B058DBF7 /* Pods-KatTok-KatTokUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yummyHawaiianPizzaKim.KatTokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KatTok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91526AC2A6D0B9900274430 /* Build configuration list for PBXProject "KatTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91526D92A6D0B9B00274430 /* Debug */,
+				E91526DA2A6D0B9B00274430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91526DB2A6D0B9B00274430 /* Build configuration list for PBXNativeTarget "KatTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91526DC2A6D0B9B00274430 /* Debug */,
+				E91526DD2A6D0B9B00274430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91526DE2A6D0B9B00274430 /* Build configuration list for PBXNativeTarget "KatTokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91526DF2A6D0B9B00274430 /* Debug */,
+				E91526E02A6D0B9B00274430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91526E12A6D0B9B00274430 /* Build configuration list for PBXNativeTarget "KatTokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91526E22A6D0B9B00274430 /* Debug */,
+				E91526E32A6D0B9B00274430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91526A92A6D0B9900274430 /* Project object */;
+}
