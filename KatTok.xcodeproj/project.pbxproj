@@ -19,6 +19,28 @@
 		E91526D62A6D0B9B00274430 /* KatTokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526D52A6D0B9B00274430 /* KatTokUITests.swift */; };
 		E91526D82A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526D72A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift */; };
 		E91526E72A6D134300274430 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91526E62A6D134300274430 /* GoogleService-Info.plist */; };
+		E91526EA2A6D172500274430 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526E92A6D172500274430 /* AppCoordinator.swift */; };
+		E91526EC2A6D173F00274430 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526EB2A6D173F00274430 /* DIContainer.swift */; };
+		E91526EE2A6D175100274430 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526ED2A6D175100274430 /* CoordinatorProtocol.swift */; };
+		E91526F12A6D188700274430 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526F02A6D188700274430 /* FirebaseService.swift */; };
+		E91526F62A6D1B4400274430 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91526F52A6D1B4400274430 /* TabBarCoordinator.swift */; };
+		E915270D2A6D27AD00274430 /* ShortsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915270C2A6D27AD00274430 /* ShortsCoordinator.swift */; };
+		E915270F2A6D28AE00274430 /* ShortsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915270E2A6D28AE00274430 /* ShortsViewController.swift */; };
+		E91527112A6D28E900274430 /* ShortsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527102A6D28E900274430 /* ShortsViewModel.swift */; };
+		E91527132A6D2ACD00274430 /* BrowseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527122A6D2ACD00274430 /* BrowseViewModel.swift */; };
+		E91527152A6D2B0100274430 /* UploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527142A6D2B0100274430 /* UploadViewModel.swift */; };
+		E91527172A6D2B2600274430 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527162A6D2B2600274430 /* ChatViewModel.swift */; };
+		E91527192A6D2B3C00274430 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527182A6D2B3C00274430 /* ProfileViewModel.swift */; };
+		E915271B2A6D2B7700274430 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915271A2A6D2B7700274430 /* BrowseViewController.swift */; };
+		E915271D2A6D2BB400274430 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915271C2A6D2BB400274430 /* UploadViewController.swift */; };
+		E915271F2A6D2BBF00274430 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915271E2A6D2BBF00274430 /* ChatViewController.swift */; };
+		E91527212A6D2BCE00274430 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527202A6D2BCE00274430 /* ProfileViewController.swift */; };
+		E91527232A6D2EA800274430 /* BrowseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527222A6D2EA800274430 /* BrowseCoordinator.swift */; };
+		E91527252A6D2EBF00274430 /* UploadCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527242A6D2EBF00274430 /* UploadCoordinator.swift */; };
+		E91527272A6D2ECD00274430 /* ChatCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527262A6D2ECD00274430 /* ChatCoordinator.swift */; };
+		E91527292A6D2EDD00274430 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91527282A6D2EDD00274430 /* ProfileCoordinator.swift */; };
+		E915272C2A6D446B00274430 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915272B2A6D446B00274430 /* TabBarViewController.swift */; };
+		E915272E2A6D8A0300274430 /* UploadShortsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E915272D2A6D8A0300274430 /* UploadShortsCoordinator.swift */; };
 		F5F9F36D640CDA23CA971469 /* Pods_KatTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4EB6605EE841A2F8893B36 /* Pods_KatTok.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +84,28 @@
 		E91526D52A6D0B9B00274430 /* KatTokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatTokUITests.swift; sourceTree = "<group>"; };
 		E91526D72A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatTokUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E91526E62A6D134300274430 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E91526E92A6D172500274430 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E91526EB2A6D173F00274430 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		E91526ED2A6D175100274430 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		E91526F02A6D188700274430 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		E91526F52A6D1B4400274430 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		E915270C2A6D27AD00274430 /* ShortsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsCoordinator.swift; sourceTree = "<group>"; };
+		E915270E2A6D28AE00274430 /* ShortsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsViewController.swift; sourceTree = "<group>"; };
+		E91527102A6D28E900274430 /* ShortsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsViewModel.swift; sourceTree = "<group>"; };
+		E91527122A6D2ACD00274430 /* BrowseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewModel.swift; sourceTree = "<group>"; };
+		E91527142A6D2B0100274430 /* UploadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewModel.swift; sourceTree = "<group>"; };
+		E91527162A6D2B2600274430 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		E91527182A6D2B3C00274430 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		E915271A2A6D2B7700274430 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		E915271C2A6D2BB400274430 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		E915271E2A6D2BBF00274430 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E91527202A6D2BCE00274430 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E91527222A6D2EA800274430 /* BrowseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseCoordinator.swift; sourceTree = "<group>"; };
+		E91527242A6D2EBF00274430 /* UploadCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCoordinator.swift; sourceTree = "<group>"; };
+		E91527262A6D2ECD00274430 /* ChatCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCoordinator.swift; sourceTree = "<group>"; };
+		E91527282A6D2EDD00274430 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		E915272B2A6D446B00274430 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E915272D2A6D8A0300274430 /* UploadShortsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadShortsCoordinator.swift; sourceTree = "<group>"; };
 		FCAC6E1B66DAE61C95D17413 /* Pods_KatTokTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatTokTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,13 +185,14 @@
 		E91526B32A6D0B9900274430 /* KatTok */ = {
 			isa = PBXGroup;
 			children = (
-				E91526B42A6D0B9900274430 /* AppDelegate.swift */,
-				E91526B62A6D0B9900274430 /* SceneDelegate.swift */,
-				E91526B82A6D0B9900274430 /* ViewController.swift */,
+				E91526EF2A6D186700274430 /* InfraStructure */,
+				E91526E82A6D16FC00274430 /* Application */,
+				E91526F32A6D1B1500274430 /* Presentation */,
 				E91526BA2A6D0B9900274430 /* Main.storyboard */,
 				E91526BD2A6D0B9B00274430 /* Assets.xcassets */,
 				E91526E62A6D134300274430 /* GoogleService-Info.plist */,
 				E91526BF2A6D0B9B00274430 /* LaunchScreen.storyboard */,
+				E91526B82A6D0B9900274430 /* ViewController.swift */,
 				E91526C22A6D0B9B00274430 /* Info.plist */,
 			);
 			path = KatTok;
@@ -168,6 +213,243 @@
 				E91526D72A6D0B9B00274430 /* KatTokUITestsLaunchTests.swift */,
 			);
 			path = KatTokUITests;
+			sourceTree = "<group>";
+		};
+		E91526E82A6D16FC00274430 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E91526B42A6D0B9900274430 /* AppDelegate.swift */,
+				E91526B62A6D0B9900274430 /* SceneDelegate.swift */,
+				E91526E92A6D172500274430 /* AppCoordinator.swift */,
+				E91526EB2A6D173F00274430 /* DIContainer.swift */,
+				E91526ED2A6D175100274430 /* CoordinatorProtocol.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E91526EF2A6D186700274430 /* InfraStructure */ = {
+			isa = PBXGroup;
+			children = (
+				E91526F22A6D1AFD00274430 /* Network */,
+			);
+			path = InfraStructure;
+			sourceTree = "<group>";
+		};
+		E91526F22A6D1AFD00274430 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E91526F02A6D188700274430 /* FirebaseService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E91526F32A6D1B1500274430 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E91526FC2A6D26D400274430 /* ProfileScene */,
+				E91526FB2A6D26C700274430 /* ChatScene */,
+				E91526FA2A6D26B900274430 /* UploadScene */,
+				E91526F92A6D25F500274430 /* BrowseScene */,
+				E91526F82A6D25CF00274430 /* ShortsScene */,
+				E91526F42A6D1B3300274430 /* Common */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E91526F42A6D1B3300274430 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E915272A2A6D443500274430 /* ViewController */,
+				E91526F72A6D1B4B00274430 /* Coordinator */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E91526F72A6D1B4B00274430 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E91526F52A6D1B4400274430 /* TabBarCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E91526F82A6D25CF00274430 /* ShortsScene */ = {
+			isa = PBXGroup;
+			children = (
+				E91526FF2A6D273400274430 /* ViewModel */,
+				E91526FE2A6D272900274430 /* ViewController */,
+				E91526FD2A6D26F900274430 /* Coordinator */,
+			);
+			path = ShortsScene;
+			sourceTree = "<group>";
+		};
+		E91526F92A6D25F500274430 /* BrowseScene */ = {
+			isa = PBXGroup;
+			children = (
+				E91527022A6D274D00274430 /* ViewModel */,
+				E91527012A6D274400274430 /* ViewController */,
+				E91527002A6D273F00274430 /* Coordinator */,
+			);
+			path = BrowseScene;
+			sourceTree = "<group>";
+		};
+		E91526FA2A6D26B900274430 /* UploadScene */ = {
+			isa = PBXGroup;
+			children = (
+				E91527052A6D275E00274430 /* ViewModel */,
+				E91527042A6D275800274430 /* ViewController */,
+				E91527032A6D275300274430 /* Coordinator */,
+			);
+			path = UploadScene;
+			sourceTree = "<group>";
+		};
+		E91526FB2A6D26C700274430 /* ChatScene */ = {
+			isa = PBXGroup;
+			children = (
+				E91527082A6D277100274430 /* ViewModel */,
+				E91527072A6D276B00274430 /* ViewController */,
+				E91527062A6D276400274430 /* Coordinator */,
+			);
+			path = ChatScene;
+			sourceTree = "<group>";
+		};
+		E91526FC2A6D26D400274430 /* ProfileScene */ = {
+			isa = PBXGroup;
+			children = (
+				E915270B2A6D278B00274430 /* ViewModel */,
+				E915270A2A6D278400274430 /* ViewController */,
+				E91527092A6D277E00274430 /* Coordinator */,
+			);
+			path = ProfileScene;
+			sourceTree = "<group>";
+		};
+		E91526FD2A6D26F900274430 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E915270C2A6D27AD00274430 /* ShortsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E91526FE2A6D272900274430 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E915270E2A6D28AE00274430 /* ShortsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E91526FF2A6D273400274430 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E91527102A6D28E900274430 /* ShortsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E91527002A6D273F00274430 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E91527222A6D2EA800274430 /* BrowseCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E91527012A6D274400274430 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E915271A2A6D2B7700274430 /* BrowseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E91527022A6D274D00274430 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E91527122A6D2ACD00274430 /* BrowseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E91527032A6D275300274430 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E91527242A6D2EBF00274430 /* UploadCoordinator.swift */,
+				E915272D2A6D8A0300274430 /* UploadShortsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E91527042A6D275800274430 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E915271C2A6D2BB400274430 /* UploadViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E91527052A6D275E00274430 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E91527142A6D2B0100274430 /* UploadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E91527062A6D276400274430 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E91527262A6D2ECD00274430 /* ChatCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E91527072A6D276B00274430 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E915271E2A6D2BBF00274430 /* ChatViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E91527082A6D277100274430 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E91527162A6D2B2600274430 /* ChatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E91527092A6D277E00274430 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E91527282A6D2EDD00274430 /* ProfileCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E915270A2A6D278400274430 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E91527202A6D2BCE00274430 /* ProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E915270B2A6D278B00274430 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E91527182A6D2B3C00274430 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E915272A2A6D443500274430 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E915272B2A6D446B00274430 /* TabBarViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,8 +692,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91526EA2A6D172500274430 /* AppCoordinator.swift in Sources */,
+				E915271D2A6D2BB400274430 /* UploadViewController.swift in Sources */,
+				E91527272A6D2ECD00274430 /* ChatCoordinator.swift in Sources */,
 				E91526B92A6D0B9900274430 /* ViewController.swift in Sources */,
+				E91526F62A6D1B4400274430 /* TabBarCoordinator.swift in Sources */,
+				E91527112A6D28E900274430 /* ShortsViewModel.swift in Sources */,
+				E91526EE2A6D175100274430 /* CoordinatorProtocol.swift in Sources */,
+				E91526EC2A6D173F00274430 /* DIContainer.swift in Sources */,
+				E915271B2A6D2B7700274430 /* BrowseViewController.swift in Sources */,
+				E91527252A6D2EBF00274430 /* UploadCoordinator.swift in Sources */,
+				E915270D2A6D27AD00274430 /* ShortsCoordinator.swift in Sources */,
+				E91527212A6D2BCE00274430 /* ProfileViewController.swift in Sources */,
+				E91526F12A6D188700274430 /* FirebaseService.swift in Sources */,
+				E91527292A6D2EDD00274430 /* ProfileCoordinator.swift in Sources */,
+				E91527172A6D2B2600274430 /* ChatViewModel.swift in Sources */,
+				E91527192A6D2B3C00274430 /* ProfileViewModel.swift in Sources */,
+				E915272C2A6D446B00274430 /* TabBarViewController.swift in Sources */,
+				E91527152A6D2B0100274430 /* UploadViewModel.swift in Sources */,
+				E915270F2A6D28AE00274430 /* ShortsViewController.swift in Sources */,
 				E91526B52A6D0B9900274430 /* AppDelegate.swift in Sources */,
+				E91527232A6D2EA800274430 /* BrowseCoordinator.swift in Sources */,
+				E91527132A6D2ACD00274430 /* BrowseViewModel.swift in Sources */,
+				E915272E2A6D8A0300274430 /* UploadShortsCoordinator.swift in Sources */,
+				E915271F2A6D2BBF00274430 /* ChatViewController.swift in Sources */,
 				E91526B72A6D0B9900274430 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
